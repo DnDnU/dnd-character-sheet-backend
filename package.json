@@ -1,0 +1,32 @@
+{
+  "name": "dnd-character-sheet-backend",
+  "version": "1.0.0",
+  "description": "DND API-Calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --colors",
+    "start": " nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DnDnU/dnd-character-sheet-backend.git"
+  },
+  "author": "DNDU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DnDnU/dnd-character-sheet-backend/issues"
+  },
+  "homepage": "https://github.com/DnDnU/dnd-character-sheet-backend#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "d20": "^1.4.1",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "jest": "^24.9.0",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.1",
+    "path": "^0.12.7"
+  }
+}
